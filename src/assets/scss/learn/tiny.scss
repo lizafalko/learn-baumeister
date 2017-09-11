@@ -1,4 +1,36 @@
+$color: brown;
+
 .tiny {
 	padding: 10px;
-	background-color: red;
+	background-color: $color;
+}
+
+.theme__image {
+	position: relative;
+	margin: 0 auto;
+	display: block;
+	border: 2px solid $color;
+}
+
+.native {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.full {
+	position: relative;
+	margin-top: 30px;
+}
+
+.oleni {
+	border: 1px solid $color;
+	margin-right: 10px;
+	display: inline-block;
+	cursor: pointer;
+	color: $color;
+}
+
+.oleni:hover {
+	text-decoration: none !important;
+	color: black;
 }
